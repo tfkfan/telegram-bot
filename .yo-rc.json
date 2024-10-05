@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "telegramBot",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-quarkus",
+        "version": "3.2.0"
+      }
+    ],
+    "buildTool": "maven",
+    "cacheProvider": "no",
+    "clientFramework": "react",
+    "clientTestFrameworks": [],
+    "clientTheme": "sketchy",
+    "clientThemeVariant": "primary",
+    "creationTimestamp": 1728127225484,
+    "databaseType": "sql",
+    "devDatabaseType": null,
+    "devServerPort": 9060,
+    "enableHibernateCache": false,
+    "enableTranslation": true,
+    "entities": ["SearchQuery", "SearchItem", "Subscriber"],
+    "jhipsterVersion": "8.5.0",
+    "languages": ["en", "ru"],
+    "lastLiquibaseTimestamp": 1729710088000,
+    "microfrontend": null,
+    "microfrontends": [],
+    "nativeLanguage": "en",
+    "packageName": "com.tfkfan.bot",
+    "prodDatabaseType": "postgresql",
+    "serverPort": null,
+    "testFrameworks": [],
+    "withAdminUi": true
+  }
+}

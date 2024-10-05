@@ -1,0 +1,32 @@
+{
+  "annotations": {
+    "changelogDate": "20241012210228"
+  },
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "value",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "active",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "minPrice",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "maxPrice",
+      "fieldType": "Long"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "SearchQuery",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
