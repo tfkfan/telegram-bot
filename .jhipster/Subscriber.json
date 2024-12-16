@@ -1,0 +1,19 @@
+{
+  "annotations": {
+    "changelogDate": "20241023190128"
+  },
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "active",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Subscriber",
+  "pagination": "pagination",
+  "readOnly": true,
+  "relationships": [],
+  "service": "serviceImpl"
+}

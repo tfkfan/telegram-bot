@@ -1,0 +1,17 @@
+{
+  "telegramBotApp": {
+    "subscriber": {
+      "home": {
+        "title": "Subscribers",
+        "refreshListLabel": "Обновить список",
+        "notFound": "Subscribers не найдено"
+      },
+      "detail": {
+        "title": "Subscriber"
+      },
+      "id": "ID",
+      "chatId": "Chat Id",
+      "active": "Active"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "telegramBotApp": {
+    "searchItem": {
+      "home": {
+        "title": "Товары",
+        "refreshListLabel": "Обновить список",
+        "notFound": "Товаров не найдено"
+      },
+      "detail": {
+        "title": "Товар"
+      },
+      "id": "ID",
+      "title": "Наименование",
+      "img": "Изображение",
+      "price": "Цена",
+      "href": "Href"
+    }
+  }
+}

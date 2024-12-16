@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity SearchItem.
+    -->
+    <changeSet id="20241013190904-1" author="jhipster">
+        <createTable tableName="search_item">
+            <column name="href" type="varchar(255)">
+                <constraints primaryKey="true" nullable="false"/>/>
+            </column>
+            <column name="title" type="varchar(255)">
+                <constraints nullable="false" />
+            </column>
+            <column name="img" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="price" type="bigint">
+                <constraints nullable="false" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here -->
+        </createTable>
+
+        <createIndex tableName="search_item" indexName="search_item_price_idx">
+            <column name="price"/>
+        </createIndex>
+
+        <createIndex tableName="search_item" indexName="search_item_title_idx">
+            <column name="title"/>
+        </createIndex>
+
+        <createTable tableName="search_item_tmp">
+            <column name="href" type="varchar(255)">
+                <constraints primaryKey="true" nullable="false"/>/>
+            </column>
+            <column name="title" type="varchar(255)">
+                <constraints nullable="false" />
+            </column>
+            <column name="img" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="price" type="bigint">
+                <constraints nullable="false" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here -->
+        </createTable>
+    </changeSet>
+</databaseChangeLog>

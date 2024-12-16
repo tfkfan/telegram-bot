@@ -1,0 +1,19 @@
+{
+  "telegramBotApp": {
+    "searchItem": {
+      "home": {
+        "title": "Search Items",
+        "refreshListLabel": "Refresh list",
+        "notFound": "No Search Items found"
+      },
+      "detail": {
+        "title": "Search Item"
+      },
+      "id": "ID",
+      "title": "Title",
+      "img": "Img",
+      "price": "Price",
+      "href": "Href"
+    }
+  }
+}
